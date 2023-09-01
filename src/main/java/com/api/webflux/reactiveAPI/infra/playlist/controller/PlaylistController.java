@@ -25,6 +25,7 @@ public class PlaylistController{
         return ResponseEntity.ok(playlistService.findAll());
     }
 
+    @PostMapping
     public ResponseEntity<Mono<Playlist>> saveOne(@RequestBody Playlist playlist) {
         return ResponseEntity.ok(playlistService.save(playlist));
     }

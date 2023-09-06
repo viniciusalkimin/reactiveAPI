@@ -1,5 +1,5 @@
 spring:
   data:
     mongodb:
-      uri: mongodb+srv://admin:admin@cluster0.cyvfhei.mongodb.net/?retryWrites=true&w=majority
-      database: apiwebflux
+      uri: mongodb://root:root@localhost:27017/
+      database: admin
